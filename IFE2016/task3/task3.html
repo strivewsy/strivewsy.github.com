@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+	<title>task3实现三栏式布局</title>
+	<meta charset="utf-8">
+    <style type="text/css">
+    *{padding:0;
+      margin:0;}
+    body{padding:20px;}
+   .wrap ,.left ,.right ,.middle
+           {border:1px solid #999;
+   	        padding:20px;}
+   .wrap{background-color:#eee;
+   	    *zoom:1; 
+         }
+  .wrap:before,
+  .wrap:after{content:"";
+              display: table;}
+  .wrap:after{clear:both;}
+   .left{float:left;
+   	     width:160px;
+   	     background-color: #fff;
+        }
+    .middle{background-color:#fff;
+            margin:0 160px 0 240px;}
+   
+ .right{float: right;
+          width:80px;
+        background-color: #fff;}
+
+    
+    </style>
+</head>
+<body>
+    <div class="wrap">
+	<div class="left"><img src="image/logo.jpg"><span>动漫：<br/>东京食尸鬼</span></div>	
+  
+
+     <div class="right">
+     <img src="image/person.jpg"> <img src="image/person.jpg"> <img src="image/person.jpg">
+     <img src="image/person.jpg"></div>
+      
+ <div class="middle">
+    <span>东京食尸鬼的介绍</span>
+	<p>金木研动漫主角，开始十分单纯并非常容易信任他人，被喰种神代利世盯上，差点成为其盘中餐，后由于利世被高空坠物砸到受到重伤侥幸脱险，但因身受重伤，在救护车上因为情况紧急被移植了利世的器官(包括利世的赫包)，身体出现了喰种的反应，成为独眼喰种。由于变为喰种无法进食正常人的食物而苦恼了很长一段时间，后被喰种咖啡厅“安定区”收留，开始逐渐了解并且融入喰种的世界。</p>
+	<p>在青铜树和CCG看来，金木只是一个试验品，至于什么实验的目的是什么，CCG当作是人类改造计划的一部分，青铜树则是量产独眼。金木的实验由嘉纳完成，而嘉纳后来从CCG跳槽到青铜树，而且金木的回忆里当天夜晚钢轧下坠又有道化师的介入，更显得其中的关系扑朔迷离。而试验品——金木最终由CCG回收。</p>
+	<p>佐佐木的成长空间很广，随着成长，库因克高级了，能使用半赫甚至全赫的力量了。想到以后穿着新爸，后面还有蜈蚣尾，拿着能匹敌IXA的库因克，能战胜有马和小枭都不是问题（说到这里，肯定又有人说有马是独眼，目前没有证据证明或者反驳，我就不展开讲了）
+
+     亚门是前作的一个主角，前作最后一集失踪了（很明显是被拐走的嘛）如今青铜树虽然失去了利世，但是得到了店长，看着店长被关在培养基里，十有八九就是拿来代替利世的了。</p></div>
+    
+      </div>
+</body>
+
+</html>
