@@ -1,0 +1,35 @@
+
+*{padding: 0;
+  margin:0;
+  box-sizing: border-box;
+  }
+body{font-family: "microsoft yahei";
+     }
+
+html,body,.left{height:100%;}
+.left{background-color:powderblue;
+      float:left;
+      top:0;
+      width:200px;
+      }
+.content{margin-left:200px;
+	     padding-left:20px;
+	     padding-top:10px;
+      background-color: #eee;}
+h1{text-align: center;
+   padding-top:10px;
+   }
+
+ol,ul{list-style-type: none;
+      padding: 0;}
+ol>li,ol>li>p{display: inline-block;
+	          margin:5px;
+             }
+ol>li,ul>li{font-weight: bold;
+            margin:5px;
+}
+  p{font-weight:normal;}
+  a:link{color:red!important;}
+  a:visited{color: orange;}
+  a:hover{color: #e468df;}
+  a:active{color:black;}

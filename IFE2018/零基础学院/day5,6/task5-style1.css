@@ -1,0 +1,19 @@
+
+
+body{font-family: "microsoft yahei";}
+
+
+ol,ul{list-style-type: none;
+      padding: 0;}
+ol>li,ol>li>p{display: inline-block;
+	          margin:5px;
+             }
+ol>li,ul>li{font-weight: bold;
+            margin:5px;
+}
+  p{font-weight:normal;}
+  a:link{color:red!important;}
+  a:visited{color: orange;}
+  a:hover{color: #e468df;}
+  a:active{color:black;}
+
