@@ -1,0 +1,258 @@
+<!doctype html>
+<html>
+	<head>
+		<title>零基础编码</title>
+		<meta charset="utf-8">
+		<style type="text/css">
+		*{
+			margin: 0;
+		    padding:0;
+		   font-family: "microsoft yahei";}
+	  body{
+	  	    background-color: #dedede;
+
+		  }
+	ol{padding:10px 0 0 53px;}
+	ul{margin-left:10px;}
+    ul li{list-style:none;}
+
+    table{width:100%;
+          margin-left:10px;}
+
+    thead td {background-color:#333333;
+              color: white;}
+
+    tbody td{border: 1px solid #cccccc;}
+    tfoot tr{background-color: #cccccc;
+             color:#333;}
+
+		.header,.footer{position: relative;
+		          background-color:#333;
+		         }	
+        .header h1{
+                   color:white;}
+        .footer{text-align: center;
+                line-height:50px;
+                height:50px;
+                color:white;
+               }
+
+        .daohang {position:absolute;
+                   right:2%;
+                   top:20%;}  
+        .daohang li{display: inline;} 
+        .daohang a{text-decoration:none;
+                  }
+        .daohang a:link{ color: white;}
+        .daohang a:visited{color: #a6a4a9;}
+        .daohang a:hover{color: white;}
+        .daohang a:active{color: white;}
+
+        .article {
+                   box-shadow:  10px 10px 5px #888888;
+                   margin:25px;
+                   padding: 25px;             
+                   background-color:white;}
+
+        .article h2,
+        .article h3,
+        .article h4, 
+        .article p{padding: 10px;}
+
+        .article h3{color:#706b71;
+                    font-size: 1.1em;}
+        .article h4{color:#939393;
+                   font-size:0.8em;}
+        .img { display:inline-block;
+               border: 1px solid #eee;
+               padding:30px;
+               margin:10px;}
+        .img p{margin-top:-15px;
+               text-align:center;}
+
+	    .biaodan {margin-left: 25%;}
+	    .biaodan li{padding-top:10px;}
+	    .biaodan li label{display:inline-block;
+	                      width: 130px;
+	                      text-align: right;}
+        .biaodan .tebie{width:20px;}
+        .hint{margin-left:13.5%;
+             color:#939393;}
+        .submit-btn{
+        	        display: block;
+        	        margin-left:-28%;
+        	        width:119%;
+        	        height: 40px;
+        	        color: white;
+        	        background-color: #3355d0;
+        	        border-radius: 15px;
+        }
+		</style>
+	</head>
+	<body>
+		<div class="header">
+		<h1>个人爱好</h1>
+		<!-- 接下来是一些链接导航，用列的形式展现出来 -->
+		<ul class="daohang">
+			<li><a href="#">首页</a></li>
+			<li><a href="#">喜爱的动漫</a></li>
+		   <li><a href="#">爱听的音乐</a></li>
+		  <li><a href="#">爱看的韩剧</a></li>
+			
+		</ul>
+	</div>
+		<!-- 有关动漫方面的内容 -->
+		<div class="article">
+		<h2>喜爱的动漫</h2>
+		<h3>日本热血动漫</h3>
+	    <h4>东京食尸鬼 猪脚金木研</h4>
+	    <p>
+	    	<a href="http://www.x4jdm.com/bf/5045-1-1.html" title="东京食尸鬼第二季">东京食尸鬼</a>是一部日本的热血动漫，讲述的是猪脚<strong>金木研</strong>本身是一个温柔善良的男生，因为某种原因而被移植上了食尸鬼的内脏，从而成为半人半食尸鬼的特殊存在。<br/>
+	    	<p><img src="image/shizhong.jpg"></p>
+	    	<a href="http://www.x4jdm.com/bf/5045-1-1.html" title="东京食尸鬼第二季" target="_blank"></a>东京食尸鬼是一部日本的热血动漫，讲述的是猪脚金木研本身是一个温柔善良的男生，因为某种原因而被移植上了食尸鬼的内脏，从而成为半人半食尸鬼的特殊存在。
+
+	    </p>
+	</div>
+	    <!-- 有关音乐方面的部分 -->
+	    <div class="article">
+	    <h2>爱听的音乐</h2>
+	    <h3>现代流行音乐</h3>
+	    <h4>superman-我的山楂树之恋</h4>
+	    <!-- 通过一个无序列表介绍一下这个歌手 -->
+	    <p>
+	    	<ul>
+	    		<li>歌手：大能人</li>
+	    		<li>性别：男</li>
+	    		<li>歌曲：我的山楂树之恋</li>	    		
+	    	</ul><br/>
+
+	    	最近常听的音乐是大能人的我的山楂树之恋，他的嗓音温柔有磁性,音乐的节奏也有毒，让我不停的单曲循环<br/>
+	    	<p><img src="image/superman.jpg" alt="superman.jpg"></p>
+	    	最近常听的音乐是大能人的我的山楂树之恋，他的嗓音温柔有磁性,音乐节奏也有毒，让我不停的单曲循环<br/>  </p>
+	</div>
+	<div class="article">
+	    	<h3>大能人图片</h3>
+	        <div class="img"> <p>大能人的图片</p>
+	        <img src="image/superman.jpg" alt="superman.jpg"></div>
+            <div class="img"> <p>大能人的图片</p>
+	        <img src="image/superman.jpg" alt="superman.jpg"> </div>
+	        <div class="img"> <p>大能人的图片</p>
+	        <img src="image/superman.jpg" alt="superman.jpg"> </div>
+	        <div class="img"><p>大能人的图片</p>
+	        <img src="image/superman.jpg" alt="superman.jpg"> </div>
+	        <div class="img"><p>大能人的图片</p>
+	        <img src="image/superman.jpg" alt="superman.jpg"> </div>
+	        <div class="img"><p>大能人的图片</p>
+	        <img src="image/superman.jpg" alt="superman.jpg"> </div>
+	        <div class="img"> <p>大能人的图片</p>
+	        <img src="image/superman.jpg" alt="superman.jpg"> </div>
+	        <div class="img"> <p>大能人的图片</p>
+	        <img src="image/superman.jpg" alt="superman.jpg"> </div>
+	</div>     
+    <div class="article">
+	 <h2>爱看的韩剧</h2>
+     <h3>男猪脚比较养眼的韩剧</h3>
+     <h4>最近热播的花游记</h4>
+         <ol>
+           <li>男猪脚很帅</li>
+           <li>女猪脚一般</li>
+           <li>我要站悟空魔王CP</li>
+         </ol>
+       <p>花游记这部韩剧是根据中国的小说西游记改变的,
+          韩国小编非常用心，通过这新颖的剧情题材可以看出。<p>
+        <p><img src="image/huayouji.png"></p>
+          花游记这部韩剧是根据中国的小说西游记改变的,
+          韩国小编非常用心，通过这新颖的剧情题材可以看出。</br><br/>
+          <!-- 下面是一个表格 -->
+          <table>
+          	<thead>
+          	<tr>
+          		<td>表头</td>
+          		<td>表头</td>
+          		<td>表头</td>
+          	</tr>
+          </thead>
+          <tbody>
+          	<tr>
+          		<td>表内容单元格</td>
+          		<td>表内容单元格</td>
+          		<td><a href="#">操作</td>
+          	</tr>
+            <tr>
+          		<td>表内容单元格</td>
+          		<td>表内容单元格</td>
+          		<td><a href="#">操作</td>
+          	</tr>
+          	<tr>
+          		<td>表内容单元格</td>
+          		<td>表内容单元格</td>
+          		<td><a href="#">操作</td>
+          	</tr>
+          	<tr>
+          		<td>表内容单元格</td>
+          		<td>表内容单元格</td>
+          		<td><a href="#">操作</td>
+          	</tr>
+          	<tr>
+          		<td>表内容单元格</td>
+          		<td>表内容单元格</td>
+          		<td><a href="#">操作</td>
+          	</tr>
+          </tbody>
+          <tfoot>
+          	<tr>
+          		<td>总计</td>
+          		<td colspan="2">1000</td>
+          	</tr>
+          </tfoot>
+          </table>
+      </div>
+      <div class="article">
+          <h3>这里以后是一个侧边栏，这是侧边栏的标题</h3>
+          <h3>侧栏注册标题窗口</h3>
+          <form method="post" action="#" class="biaodan">
+          	<ul type="none">
+          		<li>
+                    <label for="email">请输入邮箱的地址</label>
+                    <input type="text" id="email" name="email" value="这是以文本输入框"/>
+                    <p class="hint">邮箱地址请按照要求格式输入</p>
+                </li>
+                <li>
+                  <label for="password">请输入密码</label>
+                  <input type="password" id="passworddoc" value=""/>
+                 
+               </li>
+               <li>
+               	<label for="confirm-password">请确认密码</label>
+               	<input type="password" id="confirm-password" name="password">
+               	<p class="hint">密码为 6-16位的英文与数字的组合</p>
+         <li>
+          <label>性别:</label>
+          <input type="radio" name="sex" value="woman" class="tebie">女</input>
+          <input type="radio" name="sex" value="man" class="tebie">男</input>
+         </li>
+         <li>
+          <label>城市</label>
+           <select>
+           	<option value="北京">北京</option>
+           	 	<option value="上海">上海</option>
+           	 	 	<option value="广州">广州</option>
+           </select>
+          </li>
+          <li>
+           <label>爱好</label>
+             <input type="checkbox" >运动</input>
+             <input type="checkbox" >美术</input>
+             <input type="checkbox">音乐</input>
+           </li>
+           <li>
+            <label>个人描述</label>
+            <textarea cols="10" rows="2" value="这是一个多行输入文本，请输入你的个人描述"></textarea>
+            <input type="submit" value="确认提交" class="submit-btn"> </input>
+           </li>
+        </ul>
+        </div>
+        <div class="footer">版权所有&copy;made by wsy</div>
+    </form>
+	</body>
+</html>
