@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>day7.8</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		  *{padding:0px;
+		    margin:0px;
+		    box-sizing:border-box;
+        -webkit-box-sizing:border-box;
+        -moz-box-sizing:border-box;
+		    }
+
+           .header{background-color:#333;
+                   width:100%; 
+                   height:50px ;  }                
+            
+           .box1{width:960px ;
+                         margin:0 auto;
+                        overflow:auto;
+                        color:white; 
+               }
+            
+            .box1 ol{
+                    list-style-type:none;
+                     float:right;
+                     right:0px;
+                     }         
+            .box1 li{display:inline-block;}
+          
+            .box1 a:link{color:white;}
+            .box1 a:visited{color:blue;}   
+            .box1 a:hover{color:pink;}
+            .box1 a:active{color:white;}
+
+            .banner{ position:relative;                 
+            	    width:100%;
+                    background-color:lime;
+                    height:150px;
+                    }
+             .banner ul{list-style-type:none;
+             	        display: inline-block;
+             	        position:absolute;
+             	        right:150px;
+             	        bottom:10px;
+                       }
+
+              .banner li { display:inline-block;
+              	           background-color:#fff;
+              	           border:1px solid black;
+                        
+                           }
+               .banner li a{text-decoration:none;}
+               .banner li a:hover,
+               .banner li a:active{font-size:150%;
+               }
+
+            
+            .section{border-bottom: 1px solid #ccc;
+                     height:60px;} 
+            .box2{width:960px;
+                  margin:0 auto;
+                  }
+            .box2 ul{list-style-type:none;
+                    font-size:30px;
+                    padding-top:10px;
+                   }
+            .box2 li{display:inline-block;
+            	     float:left;
+            	     bottom:0px;
+                     border:1px solid #ccc;
+                     border-top-left-radius:20px;
+                     border-top-right-radius:20px;
+                     border-bottom-style: none;
+                     background-color:#ccc;
+                    }
+            .box2 li a{text-decoration:none;}
+            .box2 li:hover,
+            .box2 li:active{background-color:#aaa;
+                            font-size:40px;}
+            .box2 li.active{background-color:#aaa;
+                            font-size:40px;}
+
+           .content{width:960px; 
+                     margin:0 auto;
+                    }
+
+            .content p{border:1px solid #aaa;
+                       width:300px;
+                       padding:80px 100px;
+                       margin:6px 6px 6px 6px;
+                       display:inline-block;
+                       }
+  
+             .content p:nth-of-type(4){width:220px;}
+             .content p:nth-of-type(5){width:220px;}
+             .content p:nth-of-type(6){width:220px;}
+             .content p:nth-of-type(7){width:220px;}
+             .footer{ background-color:#444;
+                      font-size:20px;
+                      line-height:40px;
+                      color:white;
+                      text-align:center;
+	</style>
+</head>
+<body>
+   <div class="header">
+   	  <div class="box1">
+   	  <img src="image/logo.jpg" alt="logo" >
+   	  <ol>
+   	  	<li><a href="https://github.com/strivewsy">github</a></li>
+   	  	<li><a href="">register</a></li>
+   	  	<li><a href="">login</a></li>
+   	  </ol>
+   	  </div>
+   </div>
+   <div class="banner">
+   	    <ul>gi
+   	    	<li><a href="">1</a></li>
+   	    	<li><a href="">2</a></li>
+   	    	<li><a href="">3</a></li>
+   	    	<li><a href="">4</a></li>
+   	    </ul>
+   </div>
+   <div class="section">
+   	 <div class="box2">
+   	 <ul>
+   	 	<li><a href="">HOME</a></li>
+   	 	<li><a href="">PROFILE</a></li>
+   	 	<li><a href="">ABOUT</a></li>
+   	 </ul>
+   	</div>
+   </div>
+   <div class="content">
+   	  <p>content1</p>
+   	  <p>content2</p>
+   	   <p>content3</p>
+   	    <p>content4</p>
+   	     <p>content5</p>
+   	      <p>content6</p>
+   	       <p>content7</p>
+   	        <p>content8</p>
+   	         <p>content9</p>
+   	         <p>content10</p>
+   </div>
+   <div class="footer">&copy;版权归WSY所有</div>
+</body>
+</html>
