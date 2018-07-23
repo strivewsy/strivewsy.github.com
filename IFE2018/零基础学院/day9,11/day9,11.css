@@ -1,0 +1,304 @@
+*{
+	padding:0px;
+	margin:0px;
+	font-family:"microsoft yahei";
+	box-sizing:border-box;
+}
+
+/*第一个div区域对应的css样式*/
+.header{
+         background-image:url(images/1.png);
+         background-repeat:no-repeat;
+         color:white; 
+         text-align:center; 
+         padding-bottom:150px;
+       }
+.header h1{
+           font-size:62px;
+           padding-top:120px;
+           padding-bottom:150px;
+            }
+.header p{
+	       font-size:20px;
+	       line-height:32px;
+         }
+.header div{
+	        width:970px;
+	        margin:80px auto;
+
+	        padding:25px;
+	        height:250px;
+	        border:1px solid white;
+}
+.header div p{
+	      margin-top:30px;
+	       font-size:16px;
+	      
+}
+.header div span{
+	       font-size:12px;
+}
+	     
+.header form{margin:40px;
+            }
+.header form input{
+    margin-right:20px;
+	width:292px;
+	height:50px;
+	font-size:14px;
+    background-color:transparent;
+    border:1; 
+    color:#ccc;
+}
+.header form button{
+	font-size:12px;
+	width:125px;
+	height:50px;
+}
+
+/*第二个div区域相应css样式*/
+.feature{
+	    text-align:center;
+	    padding:80px;
+}
+.feature span{font-size:14px;}
+.feature h2{font-size:42px;
+            font-weight:lighter;
+            margin:20px;}
+.feature section{
+	     display:inline-block;
+	     margin:50px;
+	     font-size:20px;
+	     height:80px;
+	     width:400px;
+         text-align:left;
+}
+.feature img{float:left;
+             margin-right:20px;}
+.feature section p{font-size:16px;
+                   margin-top:15px;
+                   padding-left:67px;
+                   color:#999;}
+
+/*第三个div区域对应的css样式*/
+
+.feature2{
+	background-image:url(images/feature2.png);
+	background-repeat:no-repeat;
+}
+.feature2 div{
+  padding:100px 50px 300px 200px;
+	color:white;
+	font-size:42px;
+	text-align:left;
+}
+.feature2 p{
+	 font-size:18px;
+	 margin-top:45px;
+}
+.feature2,.but2{
+	background-color:transparent;
+	color:white;
+}
+.feature2 button{
+	display:inline-block;
+	font-size:12px;
+	width:200px;
+	height:50px;
+	margin-right:20px;
+	margin-top:60px;
+}
+.feature2 img{
+    margin-top:80px;
+	display:inline-block;
+   float:right;
+}
+
+/*第四个div区域对应的css样式*/
+
+.feature3 h1{
+	font-size:42px;
+	text-align:center;
+	margin-top:80px;
+	font-weight:lighter;
+}
+.feature3 div{
+
+	display:inline-block;
+	text-align:center;
+	width:250px;
+	height:250px;
+	margin:60px 0px 60px 130px;
+}
+.feature3 img{
+	margin-bottom:30px;
+
+}
+.feature3 p{
+	font-size:16px;
+	color:#999;
+}
+
+/*第五个div区域对应的css样式*/
+
+
+.feature4  h2{
+	font-size:20px;
+    padding-bottom:20px;}
+.feature4  p{
+	font-size:16px;
+    color:#999;
+ }
+
+.feature4 .div-1,
+.feature4 .div-2{
+	display:inline-block;
+	width:350px;
+	height:250px;
+	text-align:left;
+	
+}
+
+.feature4 img{
+	display:inline-block;	
+}
+.feature4 .img2{
+	display:inline-block;
+    float:right;}
+
+ .feature4 div{
+     display:flex;
+     justify-content:center;
+     align-items:center;
+     margin-right:70px;
+     margin-left:70px;
+     margin-top:50px;
+     margin-bottom:50px;
+     	
+}
+
+
+/*第六个div对应的css样式*/
+
+.team{ text-align:center;
+	    padding:60px;
+       }
+.team h1{
+	font-size:42px;}
+.team p{
+	margin:0 auto;
+	font-size:18px;
+    width:650px;
+    line-height:30px;
+    color:#999;
+    }
+.team .img{
+ 	background-image:url(images/2.png);
+ 	background-repeat:no-repeat;
+ 	width:470px;
+ 	height:340px;
+ 	display:inline-block;
+ 	margin-right:20px;
+ 	margin-bottom:20px;
+
+ }
+ .team .img:hover{
+	background-image:url(images/6.png);
+    background-repeat:no-repeat;
+}
+	
+ .team div{
+ 	padding:20px;		}
+ .team img{
+ 	display:inline-block;
+ 	padding-right:20px;
+    padding-bottom:20px;}
+
+
+/*第七个div区域对应的css样式*/
+
+ .feature5{text-align:center;
+           margin:30px 30px 50px 0px;}
+ .form{
+ 	display:inline-block;
+ 	border:1px solid #999;
+ 	width:470px;
+ 	height:560px;
+ 	text-align:center;
+ 	padding:28px;
+
+ }
+.form p{
+    font-weight:bolder;
+	font-size:16px;
+	margin-top:20px;
+}
+.form input{
+	font-size:14px;
+	width:370px;
+	height:50px;
+	display:block;
+	margin:20px;
+	color:#999;
+}
+.form button{
+	font-size:12px;
+	width:370px;
+	height:50px;
+	margin:20px;
+	background-color:black;
+	color:white;
+}
+
+.contact{
+	display:inline-block;
+	width:420px;
+	margin-left:100px;
+	text-align:left;
+	padding:15px;
+}
+.contact h1{font-size:42px;
+
+            }
+.contact p{font-size:16px;
+           color:#888;
+           margin-top:20px;
+           margin-bottom:40px;
+          }
+.contact img{display:inline-block;
+             margin-right:10px;
+             margin-bottom:5px;
+            }
+.contact span{padding-bottom:8px;
+             display:inline-block;
+             font-weight:bold;
+         }
+
+/*第八个div区域对应的css样式*/
+.footer{
+	background-color:black;
+	color:#777;
+}
+.footer h2{
+	font-size:14px;
+	color:#ddd;
+    margin-bottom:20px;
+}
+.footer ul{
+	list-style:none;
+}
+.footer ul>li{
+	font-size:16px;
+	margin-bottom:20px;
+}
+.footer p{
+	font-size:18px;
+}
+.footer section{
+	display:inline-block;
+	padding:80px;
+}
+.footer section img{
+	display:inline-block;
+	margin:10px;
+}
